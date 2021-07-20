@@ -7,8 +7,8 @@ public class StringFreq {
         String str = "DamineeSaini";
         int value = 0;
         HashMap<Character, Integer> strFreq = new HashMap();
-
-        for (char ch : str.toCharArray()) {
+        char[] chars= str.toCharArray();
+        for (char ch : chars) {
             if (strFreq.isEmpty()) {
                 strFreq.put(ch, 1);
             } else if (strFreq.containsKey(ch)) {

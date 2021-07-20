@@ -13,11 +13,6 @@ public class SortInLt {
                 arr[i+1]=temp;
                 i=-1;
             }
-            System.out.println("\n after iteration "+i);
-            for (int a:arr) {
-                System.out.print(a+" ");
-            }
-
         }
 
         System.out.println("\n Final output: ");
